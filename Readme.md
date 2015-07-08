@@ -1,4 +1,4 @@
-#### Goji: Misc. Functions
+#### goji: Misc. Functions
 
 Personal R package. Particularly useful for co-authors and for replication.  
 
