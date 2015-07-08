@@ -56,6 +56,10 @@ x <- c(NA, 1, 2); nona(x)
 
 Output: ` 0 1 2`
 
+**Clean**
+
+Lower case, remove punctuation and space(s)
+
 ```{r clean}
 x <- c("John, doe ", "first last  "); clean(x)
 ```
