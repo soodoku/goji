@@ -56,5 +56,12 @@ x <- c(NA, 1, 2); nona(x)
 
 Output: ` 0 1 2`
 
+```{r clean}
+x <- c("John, doe ", "first last  "); clean(x)
+```
+
+Output: `[1] "johndoe"   "firstlast"`
+
+
 #### License
 Scripts are released under [GNU V3](http://www.gnu.org/licenses/gpl-3.0.en.html).
