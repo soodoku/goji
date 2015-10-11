@@ -1,7 +1,7 @@
 #### goji: Misc. Functions
 
 [![Build Status](https://travis-ci.org/soodoku/goji.svg?branch=master)](https://travis-ci.org/soodoku/goji)
-[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/yh856e6cv7uucaj2?svg=true)](https://ci.appveyor.com/project/soodoku/goji)
+[![Build status](https://ci.appveyor.com/api/projects/status/vtycrn3k2qfyjaay?svg=true)](https://ci.appveyor.com/project/soodoku/goji)
 
 Personal R package. Particularly useful for co-authors and for replication.  
 
@@ -15,7 +15,6 @@ devtools::install_github("soodoku/goji")
 ```
 
 #### Some Functions
-
 
 **Strip Zeros Before Decimal**
 
