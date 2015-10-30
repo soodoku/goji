@@ -1,8 +1,11 @@
 #' Calculate Entropy
 #'
-#' Takes a vector and number 
+#' Max. for now 4 categories
+#' 
+#' Takes a vector and number of categories
+#'  
 #' @param x vector
-#' @param n
+#' @param n can be 2 or 4 
 #' @return recoded vector
 #' @export
 #' @examples
