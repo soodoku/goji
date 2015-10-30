@@ -1,11 +1,11 @@
 Package: goji
-Title: Personal Package with Misc. Functions
+Title: Misc. functions for handling simple things
 Version: 0.1
 Authors@R: person("Gaurav", "Sood", email = "gsood07@gmail.com", role = c("aut", "cre"))
-Description: Misc. functions for handling simple things
+Description: Misc. functions for handling simple things.
 Depends:
     R (>= 3.2.0)
-License: GPL v3 + file LICENSE
+License: MIT + file LICENSE
 LazyData: true
 Author: Gaurav Sood <gsood07@gmail.com> [aut, cre]
 RoxygenNote: 5.0.0
