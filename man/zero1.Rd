@@ -22,4 +22,3 @@ Takes a vector of values, min and max values if not observed, and recodes to 0 t
 \examples{
 x <- c(1,2,3); zero1(x)
 }
-

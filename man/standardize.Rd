@@ -19,4 +19,3 @@ Takes a vector
 \examples{
 x <- c(1,2,3); standardize(x)
 }
-

@@ -23,4 +23,3 @@ Takes a variable, a group variable, function
 \examples{
 x <- c(1:10); grp <- c(rep(1:5, each=2));grpfun(x, grp, "mean")
 }
-

@@ -23,4 +23,3 @@ Takes a vector and number of categories
 \examples{
 x <- c(1,2,3); entropy(x,2)
 }
-

@@ -18,4 +18,3 @@ Calculates generalized variance
 \examples{
 x <- data.frame(cbind(seq(7,100,10), seq(11,20,1), seq(5,35,7))); genvar(x)
 }
-

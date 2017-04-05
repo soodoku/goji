@@ -19,4 +19,3 @@ Takes a number or a vector
 \examples{
 x <- c(.200, .123, 2.2); nice(x)
 }
-

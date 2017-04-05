@@ -19,4 +19,3 @@ Takes a string or a vector of strings
 \examples{
 x <- c("John, doe ", "first last  "); clean(x)
 }
-

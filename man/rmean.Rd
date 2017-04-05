@@ -23,4 +23,3 @@ Takes a vector
 \examples{
 x <- c(.200, .123, 2.2); rmean(x)
 }
-

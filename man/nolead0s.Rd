@@ -18,4 +18,3 @@ Takes a vector of numerics and strips 0s before the decimal. For axis labeling e
 \examples{
 x <- c(0.00,0.1); nolead0s(x)
 }
-

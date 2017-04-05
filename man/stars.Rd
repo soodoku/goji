@@ -18,4 +18,3 @@ Takes p-value or vector of p-values and generates stars
 \examples{
 x <- c(.002, .01, .2); stars(x)
 }
-

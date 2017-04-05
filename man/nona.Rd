@@ -18,4 +18,3 @@ Converts NAs to 0s
 \examples{
 x <- c(NA, 1, 2); nona(x)
 }
-
