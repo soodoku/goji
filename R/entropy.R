@@ -15,14 +15,15 @@ entropy <- function(x, n) {
 
   entropy <- NA
   ent1 <- ent2 <- ent3 <- ent4 <- 0
-  if(sum(x, na.rm=T) == 0 | length(table(round(x, 2))) == 0){
+  if(sum(x, na.rm = T) == 0 | length(table(round(x, 2))) == 0){
   	entropy <- NA
   }
   
   if(length(table(round(x, 2))) > 0) {
 
     p <- table(round(x, 2))/length(x)
-    if(n ==2) {
+    
+    if(n == 2) {
       p1 = p[1]
       p2 = 1 - p1
       if(p1 == 0){ent1 <- 0} else {ent1 <- p1*log2(p1)} 

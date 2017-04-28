@@ -10,10 +10,13 @@
 #' @examples
 #' x <- c(.200, .123, 2.2); rmean(x)
 
-rmean <- function(x, wt=NULL, n=2) {
-  ans <- round(mean(x, na.rm=T),n)
+rmean <- function(x, wt = NULL, n = 2) {
+  
+  ans <- round(mean(x, na.rm = T),n)
+  
   if(!is.null(wt)) {
-    ans <- round(weighted.mean(x, wt, na.rm=T),n)
+
+    ans <- round(weighted.mean(x, wt, na.rm = T),n)
   }
   ans
 }

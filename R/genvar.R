@@ -9,7 +9,7 @@
 
 genvar <- function (x) {
   n <- length(x)
-  determinant <- sqrt(det(cov(x, use = "pairwise.complete.obs", method =c("pearson")))^2)
+  determinant <- sqrt(det(cov(x, use = "pairwise.complete.obs", method = c("pearson")))^2)
   ans <- sqrt((determinant)^(1/n))
   ans
 }
