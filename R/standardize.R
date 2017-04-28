@@ -8,15 +8,13 @@
 #' @examples
 #' x <- c(1,2,3); standardize(x)
 
-standardize	<-	function(x)
-{
-	if (is.vector(x))	{
-		x	<-	(x	-	mean(x))/sqrt(var(x))
-		return(x)
-	}
-	else {
-		cat("Not a vector")		
-	}
- }
+standardize  <-  function(x) {
 
-
+  if (is.vector(x))  {
+    x  <-  (x  -  mean(x))/sqrt(var(x))
+    return(x)
+  }
+  else {
+    cat("Not a vector")    
+  }
+}

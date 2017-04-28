@@ -1,6 +1,6 @@
 Package: goji
 Title: Misc. functions for handling simple things
-Version: 0.1
+Version: 0.1.1
 Authors@R: person("Gaurav", "Sood", email = "gsood07@gmail.com", role = c("aut", "cre"))
 Description: Misc. functions for handling simple things.
 Depends:
