@@ -10,14 +10,8 @@
 
 clean <- function(x) {
 
-  if(length(x) == 1) { 
-    x <- tolower(x) 
-  }
-  
-  if(length(x) > 1) { 
-    x <- unlist(lapply(x, tolower))
-  }
-  
+  x <- tolower(x) 
+    
   x <- gsub('[[:punct:]]', "", x) # remove punctuation
   x <- gsub('[[:space:]]', "", x) # remove space
   

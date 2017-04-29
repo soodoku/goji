@@ -12,6 +12,7 @@
 #' x <- c("a", 1, 2); class(x) <- "numeric"
 #' 
 
-as_num <- function(x){
+as_num <- function(x) {
+	
   as.numeric(ifelse(grepl("[a-z]", x), NA, x))
 }
