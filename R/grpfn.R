@@ -14,12 +14,22 @@ grpfun <- function(var, group, fun) {
 
   t.var <- var[!is.na(group)]
   t.grp <- group[!is.na(group)]
-  
+
   ans <- rep(NA, length(group))
-  
-  if(fun == "var") {ans[!is.na(group)] <- unsplit(lapply(split(t.var, t.grp), function(a) var (c(a), na.rm = TRUE)), t.grp)}
-  if(fun == "mean"){ans[!is.na(group)] <- unsplit(lapply(split(t.var, t.grp), function(a) mean (c(a), na.rm = TRUE)), t.grp)}
-  if(fun == "sum") {ans[!is.na(group)] <- unsplit(lapply(split(t.var, t.grp), function(a) sum (c(a), na.rm = TRUE)), t.grp)}
-  
+
+  if (fun == "var") {
+    ans[!is.na(group)] <- unsplit(lapply(split(t.var, t.grp),
+                                   function(a) var (c(a), na.rm = TRUE)), t.grp)
+  }
+
+  if (fun == "mean"){
+    ans[!is.na(group)] <- unsplit(lapply(split(t.var, t.grp),
+                                  function(a) mean (c(a), na.rm = TRUE)), t.grp)
+  }
+
+  if (fun == "sum") {
+    ans[!is.na(group)] <- unsplit(lapply(split(t.var, t.grp),
+                                   function(a) sum (c(a), na.rm = TRUE)), t.grp)
+  }
   ans
 }

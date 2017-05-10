@@ -10,10 +10,10 @@
 
 clean <- function(x) {
 
-  x <- tolower(x) 
-    
-  x <- gsub('[[:punct:]]', "", x) # remove punctuation
-  x <- gsub('[[:space:]]', "", x) # remove space
-  
+  x <- tolower(x)
+
+  x <- gsub("[[:punct:]]", "", x) # remove punctuation
+  x <- gsub("[[:space:]]", "", x) # remove space
+
   x
 }

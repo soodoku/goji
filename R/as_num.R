@@ -13,6 +13,7 @@
 #' 
 
 as_num <- function(x) {
-	
+
   as.numeric(ifelse(grepl("[a-z]", x), NA, x))
+
 }

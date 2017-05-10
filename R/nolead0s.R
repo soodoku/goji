@@ -8,5 +8,6 @@
 #' x <- c(0.00,0.1); nolead0s(x)
 
 nolead0s <- function(x) {
-  gsub("0\\.","\\.", x)
+
+  gsub("0\\.", "\\.", x)
 }

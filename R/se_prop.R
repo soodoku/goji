@@ -13,5 +13,6 @@
 #' 
 
 se_prop <- function(p, n) {
-  sqrt(p*(1 - p)/n)
+
+  sqrt(p * (1 - p) / n)
 }

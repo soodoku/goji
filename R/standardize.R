@@ -11,10 +11,9 @@
 standardize  <-  function(x) {
 
   if (is.vector(x))  {
-    x  <-  (x  -  mean(x))/sqrt(var(x))
+    x  <-  (x  -  mean(x)) / sqrt(var(x))
     return(x)
-  }
-  else {
-    cat("Not a vector")    
+  } else {
+    stop("Not a vector")
   }
 }
