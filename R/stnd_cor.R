@@ -17,7 +17,7 @@ stnd_cor <- function(item = NULL, n_options = 4) {
   total_incorrect <- sum(item == 0, na.rm = TRUE)
 
   est_guessed_correctly <- total_incorrect / (n_options - 1)
-  est_correct <- (total_correct - est_guessed_correctly) 
+  est_correct <- (total_correct - est_guessed_correctly)
 
   adjusted <- est_correct / length(item)
   adjusted
