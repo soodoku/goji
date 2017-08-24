@@ -19,5 +19,5 @@ values through \code{nona} to convert NAs to 0.}
 Standard Correction for Guessing For Multiple Choice Items With DKs
 }
 \examples{
-x <- c(NA, 1, 0, 1, 0, 0); stnd_cor(x, 4)
+x <- c(NA, 1, 0, 1, 0, 0); mean(x, na.rm = T); stnd_cor(x, 4)
 }
